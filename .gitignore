@@ -11,3 +11,5 @@ dist
 #!.output/public/
 #.output/public/*
 #!.output/public/*.html
+
+.tool-versions
