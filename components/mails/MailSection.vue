@@ -4,7 +4,7 @@ import { media } from "@/utils/media"
 import MailerComments from "@/components/partials/MailerComments.vue"
 
 
-export type MailSectionCSSProperties = {
+type MailSectionCSSProperties = {
     divStyle?: CSSProperties,
     tableStyle?: CSSProperties,
     tdStyle?: CSSProperties

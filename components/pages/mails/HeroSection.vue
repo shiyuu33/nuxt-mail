@@ -1,7 +1,14 @@
 <script setup lang="ts">
-import MailSection, { MailSectionCSSProperties } from "@/components/mails/MailSection.vue";
+import MailSection from "@/components/mails/MailSection.vue";
 import MailImage from "@/components/mails/MailImage.vue";
 import MailBox from "@/components/mails/MailBox.vue";
+
+type MailSectionCSSProperties = {
+    divStyle?: any,
+    tableStyle?: any,
+    tdStyle?: any
+}
+
 
 const runtimeConfig = useRuntimeConfig();
 const imagePath = runtimeConfig.public.IMG_PATH

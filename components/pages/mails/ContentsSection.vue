@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import MailSection, { MailSectionCSSProperties } from "@/components/mails/MailSection.vue";
+import MailSection from "@/components/mails/MailSection.vue";
 import MailBox from "@/components/mails/MailBox.vue";
-import MailText, { MailTextCSSProperties } from "@/components/mails/MailText.vue";
+import MailText from "@/components/mails/MailText.vue";
 
-const descriptionMailSectionStyle: MailSectionCSSProperties = {
+const descriptionMailSectionStyle: any = {
     tableStyle: {
         padding: "40px 0",
     },
@@ -16,7 +16,7 @@ const descriptionMailSectionStyle: MailSectionCSSProperties = {
     }
 }
 
-const descriptionMailTextStyle: MailTextCSSProperties = {
+const descriptionMailTextStyle: any = {
     tdStyle: {
         fontSize: "20px",
         color: "#00bd6f"

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { CSSProperties } from 'vue';
 
-export type MailTextCSSProperties = {
+type MailTextCSSProperties = {
     tdStyle?: CSSProperties
 }
 

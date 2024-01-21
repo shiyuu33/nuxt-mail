@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheBody, { TheBodyCssProperty } from "@/components/layouts/TheBody.vue";
+import TheBody from "@/components/layouts/TheBody.vue";
 import TheHeader from "@/components/layouts/TheHeader.vue";
 import TheFooter from "@/components/layouts/TheFooter.vue";
 
-const bodyStyle: TheBodyCssProperty = {
+const bodyStyle: any = {
     divStyle: {
         backgroundColor: "#f5f5f5"
     }

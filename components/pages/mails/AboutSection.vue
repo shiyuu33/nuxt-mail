@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import MailSection, { MailSectionCSSProperties } from "@/components/mails/MailSection.vue";
+import MailSection from "@/components/mails/MailSection.vue";
 import MailImage from "@/components/mails/MailImage.vue";
 import MailText from "@/components/mails/MailText.vue";
-import MailBox, { MailBoxCSSProperties } from "@/components/mails/MailBox.vue";
+import MailBox from "@/components/mails/MailBox.vue";
 
 const runtimeConfig = useRuntimeConfig();
 const imagePath = runtimeConfig.public.IMG_PATH
 
-const aboutMailSectionStyle: MailSectionCSSProperties = {
+const aboutMailSectionStyle: any = {
     tableStyle: {
         backgroundRepeat: "repeat",
         textAlign: "center",
@@ -16,7 +16,7 @@ const aboutMailSectionStyle: MailSectionCSSProperties = {
     }
 }
 
-const aboutMailBoxStyle: MailBoxCSSProperties = {
+const aboutMailBoxStyle: any = {
     tableStyle: {
         verticalAlign: "top",
     }
